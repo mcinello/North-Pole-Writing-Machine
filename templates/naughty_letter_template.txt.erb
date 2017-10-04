@@ -14,7 +14,11 @@ As for the toys you wanted:
   - <%= toy %>
 <% end -%>
 
-Better luck next year.
+Better luck next year. You'll be passing all these amazing toys, especially your most wanted:
+<%= random_toy = toys.reject { |toy| toy == "Kaleidoscope"}
+  one_toy = random_toy.sample %>
+
+Dun dun dunnnnn. Oh well!
 
 Remember – I'll be watching you.
 
